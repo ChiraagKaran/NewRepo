@@ -1,0 +1,7 @@
+### BASIC COMMANDS
+git --version                                   [gives git version]
+git config --global user.name "ChiraagKaran"    [creates a global variable and adds value to it]
+git config --global --list                      [lists all global variables]
+git init -b main                                [creates a branch called 'main' in the current directory you are in]
+git status                                      [shows status of the directory]
+git add NOTES.txt                               [adds the file 'NOTES.txt', which is in this directory, to be tracked by Git]
