@@ -13,3 +13,4 @@ NOTE: Each time a change is made in a file, the file gets unstaged.
 
 git diff                                        [shows changes made since last commit while the modified file is unstaged]
 git diff --staged                               [shows changes made since last commit while the modified file is staged]
+git rm --cached ReadMe.md                       [unstages file]
