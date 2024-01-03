@@ -7,3 +7,8 @@ git status                                      [shows status of the directory]
 git add NOTES.txt                               [adds/stages the file 'NOTES.txt', which is in this directory, to be tracked by Git]
 git commit -m "MyFirstCommit"                   [commits all the changes to Git, but file needs to be staged first after each change]
 git commit -a -m "MyThirdCommit"                [commits all the changes directly]
+
+NOTE: Each time a change is made in a file, the file gets unstaged.
+
+git diff                                        [shows changes made since last commit while the modified file is unstaged]
+git diff --staged                               [shows changes made since last commit while the modified file is staged]
