@@ -5,6 +5,7 @@ git config --global --list                      [lists all global variables]
 git init -b main                                [creates a branch called 'main' in the current directory you are in]
 git status                                      [shows status of the directory]
 git add NOTES.txt                               [adds/stages the file 'NOTES.txt', which is in this directory, to be tracked by Git]
+git add .                                       [adds all files in the dir/repo]
 git commit -m "MyFirstCommit"                   [commits all the changes to Git, but file needs to be staged first after each change]
 git commit -a -m "MyThirdCommit"                [commits all the changes directly]
 
