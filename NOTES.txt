@@ -20,3 +20,4 @@ ssh-keygen -o                                   [Creates an SSH key and stores i
 git remote add origin git@github.com:ChiraagKaran/NewRepo.git               [associate local repository with the URL of a GitHub repo]
 git push -u origin main                                                     [push the 'main' branch into GitHub repo]
 git remote set-url origin git@github.com:ChiraagKaran/GitDemoProject.git    [associate with another URL instead / switch GitHub repo]
+
