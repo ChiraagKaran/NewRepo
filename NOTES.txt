@@ -22,3 +22,7 @@ git push -u origin main                                                     [pus
 git remote set-url origin git@github.com:ChiraagKaran/GitDemoProject.git    [associate with another URL instead / switch GitHub repo]
 
 NOTE: Each commit is a version
+
+git remote -v                                   [shows the GitHub repository that the local one is connected to]
+git tag v1.1 -m "release 1"                     [creates a tag that can be used for versioning]
+git tag                                         [gives the list of all tags created]
