@@ -32,4 +32,6 @@ git push origin v1.1                            [assign the tag created offline 
 
 git checkout -b dev                             [creates new branch]
 git switch dev                                  [switches to dev branch]
-git branch                                      [shows current branch]
+git branch                                      [shows list of branchs]
+git branch --all                                [shows list of branchs including GitHub branches]
+git branch -d dev                               [deletes dev branch]
