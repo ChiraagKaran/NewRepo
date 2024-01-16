@@ -39,3 +39,4 @@ git branch -d dev                               [deletes dev branch]
 NOTES: Repository is made of multiple branches. When new branch is created locally in Git and then pushed to Origin/GitHup Repo, a new branch with same name is created in GitHub Repo automatically.
 
 git merge dev                                   [brings in all code from dev to main branch while existing code remains. Command works only when we are in main branch]
+
