@@ -46,4 +46,4 @@ git pull origin main                            [pulls the latest version from G
 git reset <commit hash>                         [goes back to however it was at that particular commit. All changes after that commit gets reverted. Get the commit hash from 'git log'.]
 
 git stash                                       [all un-committed current changes will be in the 'back-stage'. We'll only see what was there at the latest commit.]
-
+git stash pop                                   [will get back the stashed changes to view]
