@@ -41,3 +41,5 @@ NOTES: Repository is made of multiple branches. When new branch is created local
 git merge dev                                   [brings in all code from dev to main branch while existing code remains. Command works only when we are in main branch]
 
 NOTE: When you switch to a branch, the actuall project folder in explorer also gets changed showing different files that are there only in that branch.
+
+git pull origin main                            [pulls the latest version from Github to local repo]
