@@ -43,3 +43,4 @@ git merge dev                                   [brings in all code from dev to 
 NOTE: When you switch to a branch, the actuall project folder in explorer also gets changed showing different files that are there only in that branch.
 
 git pull origin main                            [pulls the latest version from Github to local repo]
+git reset <commit hash>                         [goes back to however it was at that particular commit. All changes after that commit gets reverted.]
